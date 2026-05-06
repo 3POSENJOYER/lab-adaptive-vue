@@ -1,5 +1,22 @@
-# Vue 3 + TypeScript + Vite
+# GameStack
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+GameStack — це єдина платформа для агрегації ігрових бібліотек із різних сервісів (Steam, Epic Games, GOG) в одному інтерфейсі. Основна мета системи — автоматизація аналізу сумісності ігор із апаратним забезпеченням користувача та надання точних прогнозів продуктивності.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Технології
+
+- Vue 3 + TypeScript + Vite
+- SCSS для стилізації
+- Адаптивний дизайн
+
+## Запуск проекту
+
+```bash
+pnpm install
+pnpm run dev
+```
+
+## Збірка
+
+```bash
+pnpm run build
+```
